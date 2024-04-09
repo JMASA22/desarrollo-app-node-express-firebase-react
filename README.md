@@ -1,5 +1,7 @@
 Objetivo general
+
 El objetivo de esta prueba técnica es evaluar las habilidades del desarrollador en el desarrollo de una aplicación completa utilizando Node.js, Express, Firebase y React Native. Se espera que el desarrollador sea capaz de construir una API REST utilizando Node.js y Express, integrar Firebase Firestore como base de datos, y desarrollar una aplicación móvil utilizando React Native para consumir y mostrar los datos de la API.
+
 
 Parte 1: Desarrollo de la API REST
 
@@ -16,7 +18,9 @@ El desarrollador deberá crear una API REST utilizando Node.js y Express. La API
 - DELETE /books/{id}: Elimina un libro específico según su ID.
 El desarrollador debe utilizar la biblioteca firebase-admin de Node.js para interactuar con Firebase Firestore y realizar las operaciones CRUD necesarias.
 
+
 Parte 2: Desarrollo de la aplicación móvil en React Native
+
 Configuración del proyecto de React Native
 El desarrollador deberá configurar un proyecto de React Native utilizando react-native init y asegurarse de tener todas las dependencias necesarias instaladas.
 
