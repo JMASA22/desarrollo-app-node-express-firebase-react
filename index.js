@@ -1,3 +1,12 @@
+/*
+
+- Este archivo es el punto de entrada principal de la aplicación Node.js.
+- Configura y inicializa el servidor Express.
+- Conecta la aplicación a Firebase Firestore utilizando las credenciales proporcionadas.
+- Define el puerto en el que se ejecutará el servidor y lo hace escuchar en ese puerto.
+
+*/
+
 const express = require('express');
 const app = express();
 const admin = require('firebase-admin');
@@ -38,21 +47,16 @@ Configura una base de datos en Firebase Console.
 Configura las credenciales de Firebase en tu aplicación Node.js.
 Utiliza el SDK de Firebase para Node.js para interactuar con Firestore desde tu API.
 
-4. Desarrollo de la aplicación móvil con React Native:
-Configura un nuevo proyecto de React Native.
-Crea componentes para la interfaz de usuario de tu aplicación.
-Utiliza bibliotecas como axios o fetch para realizar solicitudes HTTP a la API que creaste.
-Implementa la lógica para mostrar y manipular los datos obtenidos de la API.
-Pruebas y depuración:
+4. Desarrollar app móvil con React Native:
+Configurar un nuevo proyecto de React Native CLI
+Crea componentes para la interfaz de usuario. (plantilla tabs (TypeScript))
 
-5. Prueba tu API REST para asegurarte de que funcione correctamente.
-Prueba tu aplicación móvil en varios dispositivos y emuladores para garantizar su compatibilidad y funcionalidad.
-Utiliza herramientas de depuración para identificar y corregir errores en tu código.
-Documentación:
+Si has integrado Firebase Firestore como tu base de datos y necesitas realizar solicitudes HTTP a la API que creaste para interactuar con Firestore, no necesariamente tendrás que utilizar bibliotecas como Axios o la función fetch de JavaScript.
+Firebase proporciona su propia biblioteca para interactuar con Firestore de una manera más directa y fácil de usar.
 
-6. Documenta tu código de manera clara y concisa.
-Proporciona instrucciones detalladas sobre cómo configurar y ejecutar tu aplicación.
-Recuerda mantener un enfoque iterativo durante el desarrollo, realizando pruebas frecuentes y ajustando tu aplicación según sea necesario. 
-También es importante seguir las mejores prácticas de codificación y seguridad en cada etapa del proceso de desarrollo. 
+5. Pruebas y depuración:
+
+6. Documentación:
 
 */
+

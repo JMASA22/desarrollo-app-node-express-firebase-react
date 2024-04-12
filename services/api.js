@@ -1,3 +1,13 @@
+/*
+1-Este archivo define las rutas de tu API REST utilizando Express Router.
+2-Importa las funciones controladoras de tasksControllers.js para manejar las operaciones CRUD sobre las tareas.
+3-Define las rutas para obtener todas las tareas, obtener una tarea por su ID, crear una nueva tarea,
+actualizar una tarea existente y eliminar una tarea.
+
+La lògica de l'API separada de la lògica de l'aplicació principal.
+
+*/
+
 const express = require('express');
 const router = express.Router();
 

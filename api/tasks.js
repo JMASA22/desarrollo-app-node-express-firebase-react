@@ -1,3 +1,11 @@
+/*
+Aquest arxiu importa les funcions controlades de tasksControllers.js i defineix 
+les rutes de la meva API REST per a les operacions CRUD sobre les taqsques utilitzant Express Router.
+
+La lògica de l'API separada de la lògica de l'aplicació principal.
+
+*/
+
 const express = require("express");
 const router = express.Router();
 
@@ -18,10 +26,10 @@ router.get("/tasks/:id", getTaskById);
 router.post("/tasks", createTask);
 
 //actualizar
-router.put("/task/:id", updateTask);
+router.put("/tasks/:id", updateTask);
 
 //esborrar
-router.delete("/task/:id", deleteTask);
+router.delete("/tasks/:id", deleteTask);
 
 module.exports = router;
 

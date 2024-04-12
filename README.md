@@ -1,0 +1,3 @@
+Objetivo general
+
+El objetivo de esta prueba técnica es evaluar las habilidades de la desarrolladora en el desarrollo de una aplicación completa utilizando #Node.js, #Express, #Firebase y #ReactNative. Se espera que la desarrolladora sea capaz de construir una API REST utilizando Node.js y Express, integrar Firebase #Firestore como base de datos, y desarrollar una aplicación móvil utilizando React Native para consumir y mostrar los datos de la API.
