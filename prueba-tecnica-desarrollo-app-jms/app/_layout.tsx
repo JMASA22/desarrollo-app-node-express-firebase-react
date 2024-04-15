@@ -1,3 +1,5 @@
+//Define un componente funcional RootLayout que sirve como el diseño principal de la app. 
+
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
@@ -8,16 +10,16 @@ import { useEffect } from 'react';
 import { useColorScheme } from '@/components/useColorScheme';
 
 export {
-  // Catch any errors thrown by the Layout component.
+  // Captura els errors llançats pel component Layout.
   ErrorBoundary,
 } from 'expo-router';
 
 export const unstable_settings = {
-  // Ensure that reloading on `/modal` keeps a back button present.
+  // Assegureu-vos que la recàrrega a `/modal` manté present un botó enrere.
   initialRouteName: '(tabs)',
 };
 
-// Prevent the splash screen from auto-hiding before asset loading is complete.
+// Eviteu que la pantalla de presentació s'oculti automàticament abans que s'acabi la càrrega dels recursos.
 SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
@@ -26,7 +28,7 @@ export default function RootLayout() {
     ...FontAwesome.font,
   });
 
-  // Expo Router uses Error Boundaries to catch errors in the navigation tree.
+  // Expo Router utilitza límits d'error per detectar errors a l'arbre de navegació.
   useEffect(() => {
     if (error) throw error;
   }, [error]);
